@@ -18,7 +18,7 @@ export default {
 };
 
 async function generateSummary(destinationName) {
-  return '';
+  // return '';
   const promptPreamble =
     'write me an 150 to 250 word article on flight tips when traveling to ' +
     destinationName;
