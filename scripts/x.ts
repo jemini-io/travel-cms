@@ -7,6 +7,8 @@ import App, {
 import { ApiCheapFlightsToDestinationCheapFlightsToDestination } from '../schemas';
 import cheapFlightsToDestination from '../src/api/cheap-flights-to-destination/controllers/cheap-flights-to-destination';
 
+// Might be able to use 2 different prisma clients
+// https://github.com/prisma/prisma/issues/2443
 const prisma = new PrismaClient();
 
 async function start() {
